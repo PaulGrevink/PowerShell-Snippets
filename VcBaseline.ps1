@@ -1,6 +1,5 @@
 <#
-
-	.SYNOPSIS
+     .SYNOPSIS
         This scripts read multiple .csv files containing setting - value pairs
         and creates new .csv file.
 
@@ -34,14 +33,12 @@
         Description, Description provided by VMware
         Value, actual value of the setting
 
-
     .OUTPUT
         Output is a .csv file named "VCsummary<yyyyMMdd_hhmm>.csv
         placed in the folder "C:\Temp.
 
-	.EXAMPLE
+     .EXAMPLE
 		N/A.
-
 #>
 
 # $path, location where the .csv input files are stored.
